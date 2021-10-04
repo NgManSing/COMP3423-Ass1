@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>574</width>
+    <height>434</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>574</width>
+    <height>434</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>574</width>
+    <height>434</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-1</y>
+     <width>621</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-6</x>
+      <y>0</y>
+      <width>621</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/image/background.jpg)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>120</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(85, 255, 255, 200);
+font: 75 22pt &quot;Times New Roman&quot;;
+border-radius: 15px;</string>
+    </property>
+    <property name="text">
+     <string>Performance</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>330</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">.QPushButton{
+background-color: rgb(202, 87, 242);
+font: 16pt &quot;Cooper Black&quot;;
+border-radius: 15px;
+color: black; 
+border: 2px solid rgb(202, 87, 242);
+}
+
+.QPushButton:hover {
+  background-color: rgb(255, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Menu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>330</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">.QPushButton{
+background-color: rgb(202, 87, 242);
+font: 16pt &quot;Cooper Black&quot;;
+border-radius: 15px;
+color: black; 
+border: 2px solid rgb(202, 87, 242);
+}
+
+.QPushButton:hover {
+  background-color: rgb(255, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Details</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>180</y>
+      <width>444</width>
+      <height>116</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="layout">
+       <item alignment="Qt::AlignRight|Qt::AlignVCenter">
+        <widget class="QLabel" name="label_7">
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Number of records:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignRight">
+        <widget class="QLabel" name="label_9">
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Average score:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignRight">
+        <widget class="QLabel" name="label_10">
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Average time spent:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_12">
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>nil</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_11">
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>nil / 10</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_8">
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 18pt &quot;Times New Roman&quot;;</string>
+         </property>
+         <property name="text">
+          <string>nil seconds</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
